@@ -1,6 +1,5 @@
 value=float(input('PLZ input value:'))
 unit=input('PLZ input unit:("in" or "cm")')
-print(value, unit)
 if unit == 'cm':
     output = value / 2.54
     print('%.2f cm = %.2f in' % (value, output))
