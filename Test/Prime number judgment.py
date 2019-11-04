@@ -1,9 +1,10 @@
+from math import sqrt
 i=int(input('PLZ input a positive integer:'))
 Factor = 2
 if i == 1 :
     p = 'Prime number!'
 else:
-    while Factor < i:
+    while Factor < sqrt(i):
         if i % Factor is not 0:
             p = 'Prime number!'
             Factor += 1
