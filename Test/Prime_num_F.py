@@ -8,5 +8,6 @@ def pri(a):
     else:
         return False
 
-x = int(input('x = '))
-print(pri(x))
+if __name__ == '__main__':
+    x = int(input('x = '))
+    print(pri(x))
