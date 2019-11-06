@@ -6,5 +6,6 @@ def Palindrome(num):
         num //= 10
     return temp == fix
 
-a = int(input('x = '))
-print(Palindrome(a))
+if __name__ == '__main__':
+    a = int(input('x = '))
+    print(Palindrome(a))

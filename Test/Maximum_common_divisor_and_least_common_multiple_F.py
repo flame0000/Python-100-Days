@@ -10,6 +10,7 @@ def multiple(a,b):
     return a * b / divisor(a,b)
 
 if __name__ == '__main__':
-    i = int(input('a = '))
-    j = int(input('b = '))
-    print('Maximum common divisor = %d and least common multiple = %d' % (divisor(i,j),multiple(i,j)))
+    if __name__ == '__main__':
+        i = int(input('a = '))
+        j = int(input('b = '))
+        print('Maximum common divisor = %d and least common multiple = %d' % (divisor(i,j),multiple(i,j)))
